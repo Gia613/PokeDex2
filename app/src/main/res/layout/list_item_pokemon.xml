@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+
+    android:background="@drawable/item_background"
+
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imageViewSprite"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Pokemon Sprite"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            style="@style/Widget.PokeApp.NameText"
+
+            android:textStyle="bold"
+            android:text="Pokemon Name"/>
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="ID: #001"/>
+
+    </LinearLayout>
+</LinearLayout>

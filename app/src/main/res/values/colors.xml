@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_day">#E62929</color> <color name="primary_night">#4CAF50</color> <color name="text_custom">#FFEB3B</color> <color name="background_day">#F0F0F0</color>
+    <color name="background_night">#212121</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

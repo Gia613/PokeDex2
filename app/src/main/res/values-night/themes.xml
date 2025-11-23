@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.PokeApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_night</item>
+        <item name="colorPrimaryVariant">@color/primary_night</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:colorBackground">@color/background_night</item>
+    </style>
+
+    <style name="Widget.PokeApp.NameText" parent="Widget.Material3.TextView">
+        <item name="android:textColor">@color/primary_day</item>
+        <item name="android:textSize">24sp</item> </style>
+</resources>
